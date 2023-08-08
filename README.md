@@ -19,7 +19,7 @@
 ## Installation
  - Clone the Repositories
 
-  `git clone https://github.com/navpreet032/Internet_of_ARMs-Api.git`
+    `git clone https://github.com/navpreet032/Internet_of_ARMs-Api.git`
 
 - Navigate to the Project Directory and Install Dependencies
 
