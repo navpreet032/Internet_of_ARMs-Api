@@ -17,7 +17,7 @@
 >The code for the project is available on GitHub 🚀. I welcome anyone to contribute to the project or to use it for their own purposes. 💡
 
 ## Installation
- - Clone the Repositories
+ - Clone the Repository
 
     `git clone https://github.com/navpreet032/Internet_of_ARMs-Api.git`
 
@@ -31,3 +31,4 @@
 
 - Run the Development Server
     `npm start`
+
