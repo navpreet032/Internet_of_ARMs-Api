@@ -69,8 +69,8 @@ router.post('/login', async (req, res) => {
         }
 
         // Set the user session
-        req.session.userId = user._id; // Store user id in session
-        req.session.email = user.email; // Optionally store the email in the session
+        req.session.userId = user._id; 
+        req.session.email = user.email; 
 
         res.status(200).json({ message: 'Logged in' });
     } catch (err) {
