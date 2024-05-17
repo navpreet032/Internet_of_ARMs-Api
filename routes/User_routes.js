@@ -19,6 +19,7 @@ router.get('/check-auth', (req, res) => {
       res.json({ authenticated: false });
     }
   });
+  
 
 
 // Signup route

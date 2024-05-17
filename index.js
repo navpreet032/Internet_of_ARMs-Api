@@ -26,16 +26,16 @@ async function main() {
         .catch(err => console.log(err));
 }
 
-// Session middleware configuration
+// Session middleware 
 app.use(session({
-    secret: process.env.SESSION_SECRET || 'my_secret_key',
+    secret: process.env.SESSION_SECRET || 'yghd',
     resave: false,
     saveUninitialized: false,
     store: MongoStore.create({ mongoUrl: process.env.URL }),
     cookie: {
       maxAge: 24 * 60 * 60 * 1000, // 1 day
       httpOnly: true,
-      secure: process.env.NODE_ENV === "production",// set true if server supports HTTPS    
+      secure: process.env.NODE_ENV === "production", 
     }
   }));
 
@@ -46,4 +46,4 @@ app.use('/recording', recordingRoute );
 
 
 
-app.listen(3000, () => console.log('Listening on port 3000...'));
+app.listen(8100, () => console.log('Listening on port 8100...'));
